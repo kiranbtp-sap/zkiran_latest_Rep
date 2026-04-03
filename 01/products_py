@@ -1,0 +1,34 @@
+products = [
+    {"product": "Apple",  "price": 1.50, "type": "fruit",  "quantity": 10},
+    {"product": "Banana", "price": 0.75, "type": "fruit",  "quantity": 12},
+    {"product": "Orange", "price": 1.20, "type": "fruit",  "quantity": 15},
+    {"product": "Grapes", "price": 2.00, "type": "fruit",  "quantity": 8},
+    {"product": "Milk",   "price": 2.50, "type": "dairy",  "quantity": 20},
+    {"product": "Bread",  "price": 1.80, "type": "bakery", "quantity": 18},
+    {"product": "Eggs",   "price": 3.00, "type": "dairy",  "quantity": 24},
+    {"product": "Cheese", "price": 4.50, "type": "dairy",  "quantity": 6},
+]
+
+def display_products(products_list):
+    for product in products_list:
+        print(f"Product: {product['product']}, Price: ${product['price']:.2f}, Type: {product['type']}, Quantity: {product['quantity']}")
+
+# Call the function to display the products
+display_products(products)
+
+# Calculate total price before GST
+total_price = sum(product['price'] * product['quantity'] for product in products)
+
+# Assume GST rate of 18% (common in India; adjust if needed)
+gst_rate = 0.18
+gst_amount = total_price * gst_rate
+total_with_gst = total_price + gst_amount
+
+# Display the results
+print(f"Total Price (before GST): ${total_price:.2f}")
+print(f"GST Amount (18%): ${gst_amount:.2f}")
+print(f"Total Price (with GST): ${total_with_gst:.2f}")
+# Assume exchange rate: 1 USD = 83 INR (approximate; adjust as needed)
+usd_to_inr_rate = 83
+total_inr = total_with_gst * usd_to_inr_rate
+print(f"Total Amount in INR: ₹{total_inr:.2f}")

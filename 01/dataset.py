@@ -1,0 +1,37 @@
+weather_data = [
+    {"EST": "1/1/2016",  "Temperature": 38, "DewPoint": 23,  "Humidity": 52, "SeaLevelPressureIn": 30.03, "VisibilityMiles": 10, "WindSpeedMPH": 8,  "PrecipitationIn": 0,    "CloudCover": 5, "Events": "",      "WindDirDegrees": 281},
+    {"EST": "1/2/2016",  "Temperature": 36, "DewPoint": 18,  "Humidity": 46, "SeaLevelPressureIn": 30.02, "VisibilityMiles": 10, "WindSpeedMPH": 7,  "PrecipitationIn": 0,    "CloudCover": 3, "Events": "",      "WindDirDegrees": 275},
+    {"EST": "1/3/2016",  "Temperature": 40, "DewPoint": 21,  "Humidity": 47, "SeaLevelPressureIn": 29.86, "VisibilityMiles": 10, "WindSpeedMPH": 8,  "PrecipitationIn": 0,    "CloudCover": 1, "Events": "",      "WindDirDegrees": 277},
+    {"EST": "1/4/2016",  "Temperature": 25, "DewPoint": 9,   "Humidity": 44, "SeaLevelPressureIn": 30.05, "VisibilityMiles": 10, "WindSpeedMPH": 9,  "PrecipitationIn": 0,    "CloudCover": 3, "Events": "",      "WindDirDegrees": 345},
+    {"EST": "1/5/2016",  "Temperature": 20, "DewPoint": -3,  "Humidity": 41, "SeaLevelPressureIn": 30.57, "VisibilityMiles": 10, "WindSpeedMPH": 5,  "PrecipitationIn": 0,    "CloudCover": 0, "Events": "",      "WindDirDegrees": 333},
+    {"EST": "1/6/2016",  "Temperature": 33, "DewPoint": 4,   "Humidity": 35, "SeaLevelPressureIn": 30.50, "VisibilityMiles": 10, "WindSpeedMPH": 4,  "PrecipitationIn": 0,    "CloudCover": 0, "Events": "",      "WindDirDegrees": 259},
+    {"EST": "1/7/2016",  "Temperature": 39, "DewPoint": 11,  "Humidity": 33, "SeaLevelPressureIn": 30.28, "VisibilityMiles": 10, "WindSpeedMPH": 2,  "PrecipitationIn": 0,    "CloudCover": 3, "Events": "",      "WindDirDegrees": 293},
+    {"EST": "1/8/2016",  "Temperature": 39, "DewPoint": 29,  "Humidity": 64, "SeaLevelPressureIn": 30.20, "VisibilityMiles": 10, "WindSpeedMPH": 4,  "PrecipitationIn": 0,    "CloudCover": 8, "Events": "",      "WindDirDegrees": 79},
+    {"EST": "1/9/2016",  "Temperature": 42, "DewPoint": 31,  "Humidity": 65, "SeaLevelPressureIn": 29.95, "VisibilityMiles": 9,  "WindSpeedMPH": 6,  "PrecipitationIn": 0.05, "CloudCover": 7, "Events": "Rain",  "WindDirDegrees": 101},
+    {"EST": "1/10/2016", "Temperature": 37, "DewPoint": 26,  "Humidity": 62, "SeaLevelPressureIn": 29.88, "VisibilityMiles": 8,  "WindSpeedMPH": 10, "PrecipitationIn": 0.1,  "CloudCover": 6, "Events": "Rain",  "WindDirDegrees": 115},
+    {"EST": "1/11/2016", "Temperature": 34, "DewPoint": 20,  "Humidity": 57, "SeaLevelPressureIn": 30.10, "VisibilityMiles": 10, "WindSpeedMPH": 7,  "PrecipitationIn": 0,    "CloudCover": 4, "Events": "",      "WindDirDegrees": 230},
+    {"EST": "1/12/2016", "Temperature": 30, "DewPoint": 15,  "Humidity": 53, "SeaLevelPressureIn": 30.22, "VisibilityMiles": 10, "WindSpeedMPH": 5,  "PrecipitationIn": 0,    "CloudCover": 2, "Events": "",      "WindDirDegrees": 270},
+    {"EST": "1/13/2016", "Temperature": 28, "DewPoint": 10,  "Humidity": 49, "SeaLevelPressureIn": 30.35, "VisibilityMiles": 10, "WindSpeedMPH": 8,  "PrecipitationIn": 0,    "CloudCover": 1, "Events": "",      "WindDirDegrees": 310},
+    {"EST": "1/14/2016", "Temperature": 24, "DewPoint": 5,   "Humidity": 45, "SeaLevelPressureIn": 30.48, "VisibilityMiles": 10, "WindSpeedMPH": 11, "PrecipitationIn": 0,    "CloudCover": 0, "Events": "",      "WindDirDegrees": 320},
+    {"EST": "1/15/2016", "Temperature": 22, "DewPoint": 2,   "Humidity": 43, "SeaLevelPressureIn": 30.55, "VisibilityMiles": 10, "WindSpeedMPH": 9,  "PrecipitationIn": 0,    "CloudCover": 0, "Events": "",      "WindDirDegrees": 335},
+    {"EST": "1/16/2016", "Temperature": 27, "DewPoint": 8,   "Humidity": 46, "SeaLevelPressureIn": 30.40, "VisibilityMiles": 10, "WindSpeedMPH": 6,  "PrecipitationIn": 0,    "CloudCover": 2, "Events": "",      "WindDirDegrees": 290},
+    {"EST": "1/17/2016", "Temperature": 31, "DewPoint": 14,  "Humidity": 50, "SeaLevelPressureIn": 30.18, "VisibilityMiles": 10, "WindSpeedMPH": 5,  "PrecipitationIn": 0,    "CloudCover": 3, "Events": "",      "WindDirDegrees": 265},
+    {"EST": "1/18/2016", "Temperature": 35, "DewPoint": 19,  "Humidity": 53, "SeaLevelPressureIn": 29.99, "VisibilityMiles": 9,  "WindSpeedMPH": 7,  "PrecipitationIn": 0.02, "CloudCover": 5, "Events": "Rain",  "WindDirDegrees": 180},
+    {"EST": "1/19/2016", "Temperature": 33, "DewPoint": 22,  "Humidity": 62, "SeaLevelPressureIn": 29.80, "VisibilityMiles": 7,  "WindSpeedMPH": 12, "PrecipitationIn": 0.15, "CloudCover": 7, "Events": "Rain",  "WindDirDegrees": 160},
+    {"EST": "1/20/2016", "Temperature": 29, "DewPoint": 17,  "Humidity": 59, "SeaLevelPressureIn": 29.75, "VisibilityMiles": 5,  "WindSpeedMPH": 14, "PrecipitationIn": 0.25, "CloudCover": 8, "Events": "Snow",  "WindDirDegrees": 140},
+    {"EST": "1/21/2016", "Temperature": 26, "DewPoint": 12,  "Humidity": 55, "SeaLevelPressureIn": 29.90, "VisibilityMiles": 6,  "WindSpeedMPH": 10, "PrecipitationIn": 0.1,  "CloudCover": 6, "Events": "Snow",  "WindDirDegrees": 155},
+    {"EST": "1/22/2016", "Temperature": 23, "DewPoint": 6,   "Humidity": 48, "SeaLevelPressureIn": 30.12, "VisibilityMiles": 10, "WindSpeedMPH": 8,  "PrecipitationIn": 0,    "CloudCover": 3, "Events": "",      "WindDirDegrees": 245},
+    {"EST": "1/23/2016", "Temperature": 21, "DewPoint": 3,   "Humidity": 45, "SeaLevelPressureIn": 30.30, "VisibilityMiles": 10, "WindSpeedMPH": 7,  "PrecipitationIn": 0,    "CloudCover": 1, "Events": "",      "WindDirDegrees": 260},
+    {"EST": "1/24/2016", "Temperature": 25, "DewPoint": 7,   "Humidity": 47, "SeaLevelPressureIn": 30.25, "VisibilityMiles": 10, "WindSpeedMPH": 5,  "PrecipitationIn": 0,    "CloudCover": 2, "Events": "",      "WindDirDegrees": 275},
+    {"EST": "1/25/2016", "Temperature": 30, "DewPoint": 13,  "Humidity": 50, "SeaLevelPressureIn": 30.08, "VisibilityMiles": 10, "WindSpeedMPH": 6,  "PrecipitationIn": 0,    "CloudCover": 4, "Events": "",      "WindDirDegrees": 288},
+    {"EST": "1/26/2016", "Temperature": 34, "DewPoint": 18,  "Humidity": 52, "SeaLevelPressureIn": 29.92, "VisibilityMiles": 9,  "WindSpeedMPH": 8,  "PrecipitationIn": 0.03, "CloudCover": 5, "Events": "Rain",  "WindDirDegrees": 200},
+    {"EST": "1/27/2016", "Temperature": 36, "DewPoint": 22,  "Humidity": 58, "SeaLevelPressureIn": 29.85, "VisibilityMiles": 8,  "WindSpeedMPH": 9,  "PrecipitationIn": 0.08, "CloudCover": 6, "Events": "Rain",  "WindDirDegrees": 185},
+    {"EST": "1/28/2016", "Temperature": 38, "DewPoint": 25,  "Humidity": 60, "SeaLevelPressureIn": 29.78, "VisibilityMiles": 7,  "WindSpeedMPH": 11, "PrecipitationIn": 0.12, "CloudCover": 7, "Events": "Rain",  "WindDirDegrees": 170},
+    {"EST": "1/29/2016", "Temperature": 35, "DewPoint": 20,  "Humidity": 55, "SeaLevelPressureIn": 29.95, "VisibilityMiles": 10, "WindSpeedMPH": 7,  "PrecipitationIn": 0,    "CloudCover": 4, "Events": "",      "WindDirDegrees": 220},
+    {"EST": "1/30/2016", "Temperature": 32, "DewPoint": 16,  "Humidity": 52, "SeaLevelPressureIn": 30.15, "VisibilityMiles": 10, "WindSpeedMPH": 5,  "PrecipitationIn": 0,    "CloudCover": 2, "Events": "",      "WindDirDegrees": 240},
+    {"EST": "1/31/2016", "Temperature": 29, "DewPoint": 12,  "Humidity": 49, "SeaLevelPressureIn": 30.28, "VisibilityMiles": 10, "WindSpeedMPH": 4,  "PrecipitationIn": 0,    "CloudCover": 1, "Events": "",      "WindDirDegrees": 255},
+]
+ 
+# Print all records
+for record in weather_data:
+    print(record)

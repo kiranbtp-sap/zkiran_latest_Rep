@@ -20,14 +20,23 @@ print("height : ", height, "is of type ", type(height))
 print("is student : ", is_stuents, "is of type ", type(is_stuents))
 
 
-newage = input("Enter your age : ")
+# newage = input("Enter your age : ")
 
-if int(newage) > 18 :
-    print(name,"is an adult")
-elif int(newage) == 18:
-     print(name,"is just an adult")
-else: 
-     print(name,"is not an adult")
+# if int(newage) > 18 :
+#     print(name,"is an adult")
+# elif int(newage) == 18:
+#      print(name,"is just an adult")
+# else: 
+#      print(name,"is not an adult")
 
+
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("He/She is an Adult")
+else:
+    print("He/She is Not an Adult")
 
 
